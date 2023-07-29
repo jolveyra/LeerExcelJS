@@ -6,10 +6,17 @@
   "scripts": {
     "test": "test"
   },
+  "bin": "index.cjs.js",
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "exceljs": "^4.3.0"
+    "exceljs": "^4.3.0",
+    "pkg": "^5.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "@babel/preset-env": "^7.22.9"
   }
 }
